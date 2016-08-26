@@ -1,0 +1,23 @@
+{
+	"name" : "mvc",
+	"require": {
+		"php": ">=5.3"
+	},
+
+	"minimal-stability": "alpha",
+	"authors": [
+		{
+			"name": "Lennon dos Santos Bueno",
+			"email": "lennonsbueno@gmail.com"
+		}
+	],
+	"autoload": {
+		"psr-0":{
+			"mvc": "vendor",
+			"app": "/"
+		}
+	},
+	"config": {
+		"bin-dir": "bin"
+	}
+}
